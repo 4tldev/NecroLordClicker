@@ -47,15 +47,38 @@ public class UI_MinionPurchaseRow : MonoBehaviour
 
         if (UI_MinionPurchaseToggleHandler.Instance.isBuyMax)
         {
-            costText.text = "MAX"; //TODO calculate current max to buy
+            costText.text = "MAX";
+
+            currentCost = MinionPurchaseCalculator.GetMaxAffordable(
+                _entry.data.baseCost,
+                _entry.data.purchaseMultiplier,
+                _entry.amountOwned,
+                _player.Souls
+                );
         }
         else
         {
+            BigNumber amount = new BigNumber(0);
+            switch (UI_MinionPurchaseToggleHandler.Instance.amountToBuy) 
+            {
+                case AMOUNT_TO_BUY.ONE:
+                    amount = new BigNumber(1);
+                    break;
+                case AMOUNT_TO_BUY.TEN:
+                    amount = new BigNumber(10);
+                    break;
+                case AMOUNT_TO_BUY.ONEHUNDRED:
+                    amount = new BigNumber(100);
+                    break;
+                default:
+                    throw new Exception("Unexpected behavior in AMOUNT_TO_BUY enum switch");
+            }
+
             currentCost = MinionPurchaseCalculator.GetTotalCost(
                 _entry.data.baseCost,
                 _entry.data.purchaseMultiplier,
                 _entry.amountOwned,
-                UI_MinionPurchaseToggleHandler.Instance.amountToBuy
+                amount
             );
 
             costText.text = BigNumberFormatter.Format(currentCost.ToDouble());

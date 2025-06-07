@@ -1,12 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
+
+public enum AMOUNT_TO_BUY 
+{
+    ONE, TEN, ONEHUNDRED, BUYMAX
+}
 
 public class UI_MinionPurchaseToggleHandler : MonoBehaviour
 {
     public static UI_MinionPurchaseToggleHandler Instance { get; private set; }
 
-    public BigNumber amountToBuy = new BigNumber(1);
+    public AMOUNT_TO_BUY amountToBuy;
+    public BigNumber purchaseAmount;
     public bool isBuyMax = false;
+
+    [SerializeField] private Player player; // This feels bad
 
     [SerializeField] private Toggle toggle_1x;
     [SerializeField] private Toggle toggle_10x;
@@ -43,56 +52,40 @@ public class UI_MinionPurchaseToggleHandler : MonoBehaviour
         toggle_max.onValueChanged.RemoveListener(OnToggleMaxChanged);
     }
 
-    private void OnToggle1xChanged(bool isOn) { if (isOn) ApplyToggle(1, false); }
-    private void OnToggle10xChanged(bool isOn) { if (isOn) ApplyToggle(10, false); }
-    private void OnToggle100xChanged(bool isOn) { if (isOn) ApplyToggle(100, false); }
-    private void OnToggleMaxChanged(bool isOn) { if (isOn) ApplyToggle(0, true); }
+    private void OnToggle1xChanged(bool isOn) { if (isOn) ApplyToggle(AMOUNT_TO_BUY.ONE, false); }
+    private void OnToggle10xChanged(bool isOn) { if (isOn) ApplyToggle(AMOUNT_TO_BUY.TEN, false); }
+    private void OnToggle100xChanged(bool isOn) { if (isOn) ApplyToggle(AMOUNT_TO_BUY.ONEHUNDRED, false); }
+    private void OnToggleMaxChanged(bool isOn) { if (isOn) ApplyToggle(AMOUNT_TO_BUY.BUYMAX, true); }
 
-    private void ApplyToggle(int amount, bool max)
+    private void ApplyToggle(AMOUNT_TO_BUY amount, bool max)
     {
-        amountToBuy = new BigNumber(amount);
+        amountToBuy = amount;
         isBuyMax = max;
+
+        Debug.Log($"Toggle enum changed to {amountToBuy} and isBuyMax: {isBuyMax}");
 
         onToggleChanged?.Raise();
         UI_MinionPurchaseList.Instance.RefreshAllRows();
     }
 
-
-    public void SetToggle(Toggle selectedToggle)
+    public BigNumber GetPurchaseAmount() 
     {
-        // Reset all toggles
-        toggle_1x.isOn = false;
-        toggle_10x.isOn = false;
-        toggle_100x.isOn = false;
-        toggle_max.isOn = false;
-
-        // Enable selected
-        selectedToggle.isOn = true;
-
-        // Update logic
-        if (selectedToggle == toggle_1x)
+        switch (amountToBuy)
         {
-            amountToBuy = new BigNumber(1);
-            isBuyMax = false;
-        }
-        else if (selectedToggle == toggle_10x)
-        {
-            amountToBuy = new BigNumber(10);
-            isBuyMax = false;
-        }
-        else if (selectedToggle == toggle_100x)
-        {
-            amountToBuy = new BigNumber(100);
-            isBuyMax = false;
-        }
-        else if (selectedToggle == toggle_max)
-        {
-            amountToBuy = new BigNumber(0); // TODO: real max logic
-            isBuyMax = true;
+            case AMOUNT_TO_BUY.ONE:
+                purchaseAmount = new BigNumber(1);
+                break;
+            case AMOUNT_TO_BUY.TEN:
+                purchaseAmount = new BigNumber(10);
+                break;
+            case AMOUNT_TO_BUY.ONEHUNDRED:
+                purchaseAmount = new BigNumber(100);
+                break;
+            default:
+                throw new Exception("Unexpected behavior in AMOUNT_TO_BUY enum switch");
         }
 
-        // 🧠 Fire event and refresh display
-        onToggleChanged?.Raise();
-        UI_MinionPurchaseList.Instance.RefreshAllRows(); // ✅ Keep this
+        return purchaseAmount;
     }
+
 }

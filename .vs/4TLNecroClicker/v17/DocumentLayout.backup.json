@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\didit\\4TLNecroClicker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\soulstatstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\soulstatstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\soulhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\soulhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\minions\\minionpurchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionpurchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\minions\\minionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|c:\\users\\didit\\4tlnecroclicker\\assets\\_scripts\\ui\\ui_minionpurchasebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\ui\\ui_minionpurchasebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\debug_rosebud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\soulhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\soulhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\ui\\ui_minionpurchaserow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\ui\\ui_minionpurchaserow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\minions\\minionpurchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionpurchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\phylacteryclickobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionpurchasecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\soulstatstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\soulstatstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\ui\\ui_minionpurchaselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\ui\\ui_minionpurchaselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\minions\\minionlistentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionlistentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\minions\\minionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ABCB27-F65B-A943-9505-A46F905656C6}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\minions\\minionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{220F9139-E23A-3D3A-8FDC-EA2C45564A1E}|Assembly-CSharp-Editor.csproj|C:\\Users\\didit\\4TLNecroClicker\\assets\\_scripts\\editor\\bignumberdrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DEBUG_Rosebud.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\DEBUG_Rosebud.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\DEBUG_Rosebud.cs",
@@ -90,19 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "SoulStatsTracker.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\SoulStatsTracker.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\SoulStatsTracker.cs",
               "ToolTip": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\SoulStatsTracker.cs",
               "RelativeToolTip": "Assets\\_Scripts\\SoulStatsTracker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawBoAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:25:45.079Z"
+              "WhenOpened": "2025-06-07T00:25:45.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PhylacteryClickObject.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\PhylacteryClickObject.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\PhylacteryClickObject.cs",
@@ -114,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BigNumberFormatter.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Settings\\BigNumberFormatter.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Settings\\BigNumberFormatter.cs",
@@ -126,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UI_MinionPurchaseButton.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\UI\\UI_MinionPurchaseButton.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\UI\\UI_MinionPurchaseButton.cs",
@@ -139,31 +140,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SoulHandler.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\SoulHandler.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\SoulHandler.cs",
               "ToolTip": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\SoulHandler.cs",
               "RelativeToolTip": "Assets\\_Scripts\\SoulHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T21:19:25.291Z"
+              "WhenOpened": "2025-06-06T21:19:25.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MinionPurchaseManager.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionPurchaseManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Minions\\MinionPurchaseManager.cs",
               "ToolTip": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionPurchaseManager.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Minions\\MinionPurchaseManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwFAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAEwEAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T20:47:00.778Z"
+              "WhenOpened": "2025-06-06T20:47:00.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MinionPurchaseCalculator.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionPurchaseCalculator.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Minions\\MinionPurchaseCalculator.cs",
@@ -175,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UI_MinionPurchaseToggleHandler.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\UI\\UI_MinionPurchaseToggleHandler.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\UI\\UI_MinionPurchaseToggleHandler.cs",
@@ -199,31 +202,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "MinionManager.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Minions\\MinionManager.cs",
               "ToolTip": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionManager.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Minions\\MinionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T13:16:57.36Z"
+              "WhenOpened": "2025-06-06T13:16:57.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Player.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T12:29:27.79Z"
+              "WhenOpened": "2025-06-06T12:29:27.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UI_MinionPurchaseRow.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\UI\\UI_MinionPurchaseRow.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\UI\\UI_MinionPurchaseRow.cs",
@@ -235,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UI_MinionPurchaseList.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\UI\\UI_MinionPurchaseList.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\UI\\UI_MinionPurchaseList.cs",
@@ -259,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MinionListEntry.cs",
               "DocumentMoniker": "C:\\Users\\didit\\4TLNecroClicker\\Assets\\_Scripts\\Minions\\MinionListEntry.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Minions\\MinionListEntry.cs",
