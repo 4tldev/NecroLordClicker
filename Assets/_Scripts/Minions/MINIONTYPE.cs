@@ -1,0 +1,10 @@
+public enum MINIONTYPE 
+{
+    ZOMBIE,
+    SKELETON,
+    POLTERGEIST,
+    MUMMY,
+    BANSHEE,
+    VAMPIRE,
+    GHOSTCAT
+}
