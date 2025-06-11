@@ -10,5 +10,5 @@ public class SO_UndeadMinionData : ScriptableObject
     public BigNumber baseSoulsPerSecond;
     public BigNumber currentSoulsPerSecond;
     public double purchaseMultiplier = .15;
-    public MINIONTYPE miniontype;
+    public MINIONTYPE minionType;
 }

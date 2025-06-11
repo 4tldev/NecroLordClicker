@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class UI_MinionPurchaseRow : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class UI_MinionPurchaseRow : MonoBehaviour
 
         minionListEntry = entry;
 
-        minionNameText.text = entry.data.minionName;
+        minionNameText.text = $"{entry.data.minionName} owned: {BigNumberFormatter.Format(entry.amountOwned.ToDouble())}";
     }
 
 
@@ -48,6 +49,7 @@ public class UI_MinionPurchaseRow : MonoBehaviour
         if (UI_MinionPurchaseToggleHandler.Instance.isBuyMax)
         {
             costText.text = "MAX";
+            minionNameText.text = $"{_entry.data.minionName} owned: {BigNumberFormatter.Format(_entry.amountOwned.ToDouble())}";
 
             currentCost = MinionPurchaseCalculator.GetMaxAffordable(
                 _entry.data.baseCost,
@@ -82,6 +84,7 @@ public class UI_MinionPurchaseRow : MonoBehaviour
             );
 
             costText.text = BigNumberFormatter.Format(currentCost.ToDouble());
+            minionNameText.text = $"{_entry.data.minionName} | owned: {BigNumberFormatter.Format(_entry.amountOwned.ToDouble())}";
         }
     }
 

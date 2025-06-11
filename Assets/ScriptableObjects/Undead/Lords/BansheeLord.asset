@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dff02cba0f89f64f92200b7e4b30bf8, type: 3}
+  m_Name: BansheeLord
+  m_EditorClassIdentifier: 
+  minionName: Banshee Lord
+  baseCost:
+    mantissa: 5
+    exponent: 1
+  currentCost:
+    mantissa: 0
+    exponent: 0
+  purchaseMultiplier: 2
+  minionType: 4
+  availableTraits: []

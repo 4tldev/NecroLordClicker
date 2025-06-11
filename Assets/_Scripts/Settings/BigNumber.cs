@@ -123,4 +123,19 @@ public struct BigNumber : IComparable<BigNumber>
     {
         return mantissa.GetHashCode() ^ exponent.GetHashCode();
     }
+
+    public static BigNumber Pow(BigNumber baseValue, int exponent)
+    {
+        if (exponent == 0)
+            return new BigNumber(1);
+
+        BigNumber result = baseValue;
+
+        for (int i = 1; i < exponent; i++)
+        {
+            result *= baseValue;
+        }
+
+        return result;
+    }
 }

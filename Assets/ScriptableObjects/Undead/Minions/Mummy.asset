@@ -16,7 +16,14 @@ MonoBehaviour:
   baseCost:
     mantissa: 1
     exponent: 5
+  currentCost:
+    mantissa: 0
+    exponent: 0
   baseSoulsPerSecond:
     mantissa: 1
     exponent: 3
-  miniontype: 3
+  currentSoulsPerSecond:
+    mantissa: 0
+    exponent: 0
+  purchaseMultiplier: 0.15
+  minionType: 3
